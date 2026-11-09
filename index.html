@@ -20,9 +20,27 @@
 details.module.study-hidden{display:none}
 @media(max-width:600px){#student-dashboard .study-tools{padding:16px}.study-actions .btn{flex:1}}
 
+
+/* Language selector — keeps the existing black and gold theme */
+.language-tools{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.language-tools button{border:1px solid #75602d;border-radius:7px;padding:7px 11px;background:#11110e;color:var(--gold);font:inherit;font-size:12px;cursor:pointer}
+.language-tools button[aria-pressed="true"],.language-tools button:hover{background:var(--gold);color:#111}
+#google_translate_element{max-width:145px;overflow:hidden}
+#google_translate_element select{max-width:145px;padding:6px;border:1px solid #75602d;border-radius:7px;background:#111;color:#d8b45a;font:inherit}
+.goog-te-gadget{color:#b9ad91!important;font-size:10px!important}
+.goog-te-gadget .goog-te-combo{margin:4px 0!important}
+.goog-te-banner-frame.skiptranslate{display:none!important}
+body{top:0!important}
+@media(max-width:600px){.language-tools{width:100%;justify-content:flex-start}.language-tools button{padding:6px 9px}}
+
 </style></head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home">ABDULLAH ICT GOLD</a><nav class="navlinks"><a href="#method">المنهجية</a><a href="#lessons">الدروس</a><a href="#plan">خطة التحليل</a><a href="#risk">إدارة المخاطر</a><a href="#toc">منهج ICT الكامل</a><a href="#deep-lessons-12">قاموس ICT</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#home">ABDULLAH ICT GOLD</a><nav class="navlinks"><a href="#method">المنهجية</a><a href="#lessons">الدروس</a><a href="#plan">خطة التحليل</a><a href="#risk">إدارة المخاطر</a><a href="#toc">منهج ICT الكامل</a><a href="#deep-lessons-12">قاموس ICT</a></nav><div class="language-tools" aria-label="Language selection">
+<button type="button" data-site-language="ar" aria-pressed="true">العربية</button>
+<button type="button" data-site-language="en" aria-pressed="false">English</button>
+<button type="button" data-site-language="tr" aria-pressed="false">Türkçe</button>
+<div id="google_translate_element" aria-label="Translation service"></div>
+</div></div></header>
 <main id="home"><section class="hero"><div class="wrap"><div class="eyebrow">ICT • XAUUSD • NASDAQ</div><h1>اقرأ السوق.<br><span>افهم السيولة.</span></h1><p class="lead">منصة تعليمية عربية لفهم منهج ICT، وقراءة حركة السعر والسيولة وبنية السوق، وبناء خطة تداول منضبطة للذهب والناسداك — خطوة بخطوة، دون وعود بأرباح مضمونة.</p><div class="actions"><a class="btn primary" href="#lessons">ابدأ التعلم</a><a class="btn" href="#method">استكشف المنهجية</a></div><p><span class="tag">Liquidity</span><span class="tag">MSS</span><span class="tag">OB / FVG</span><span class="tag">Risk Management</span></p></div></section>
 <section class="section" id="method"><div class="wrap"><h2>منهجية <span>ICT</span></h2><p class="intro">لا تبحث عن إشارة واحدة. اجمع السياق، ومكان السيولة، وردة فعل السعر، ثم انتظر تأكيدًا واضحًا قبل التفكير في الدخول.</p><div class="grid"><article class="card"><h3>01 — السيولة</h3><p>تعرف على BSL وSSL، القمم والقيعان المتساوية، تجمعات أوامر الوقف، وسحب السيولة الحقيقي مقابل الحركة غير المؤكدة.</p></article><article class="card"><h3>02 — بنية السوق</h3><p>راقب displacement وMSS لتقييم تغير السلوك بعد سحب السيولة، بدل الدخول لمجرد لمس مستوى.</p></article><article class="card"><h3>03 — مناطق الاهتمام</h3><p>ادرس Order Block وFair Value Gap وPremium/Discount ضمن سياق الإطار الزمني الأكبر.</p></article><article class="card"><h3>04 — التوقيت</h3><p>تعلم جلسات لندن ونيويورك وKill Zones وJudas Swing وPO3/AMD، مع الانتباه للأخبار والتقلبات.</p></article></div></div></section>
 <section class="section" id="lessons"><div class="wrap"><h2>مكتبة <span>الدروس</span></h2><p class="intro">ابدأ بالأساسيات ثم انتقل إلى نماذج التنفيذ. هذه خريطة تعلم؛ لا تُعد أي فكرة منها توصية شراء أو بيع.</p><div class="grid"><article class="card"><div class="number">الدرس 01</div><h3>هندسة السيولة</h3><p>BSL / SSL، Equal Highs & Lows، Liquidity Sweep، وكيفية تحديد الأهداف المحتملة للسيولة.</p></article><article class="card"><div class="number">الدرس 02</div><h3>Market Structure</h3><p>الاتجاه، القمم والقيعان، MSS، displacement، والتمييز بين الكسر المؤكد والحركة العشوائية.</p></article><article class="card"><div class="number">الدرس 03</div><h3>OB وFVG</h3><p>تحديد مناطق الاهتمام، شروط صلاحيتها، وإدارة الإبطال بدل افتراض أن كل منطقة ستصمد.</p></article><article class="card"><div class="number">الدرس 04</div><h3>PO3 / AMD</h3><p>التجميع ثم التلاعب/سحب السيولة ثم التوسع المحتمل، وربط النموذج بالسياق العام للسوق.</p></article><article class="card"><div class="number">الدرس 05</div><h3>Judas Swing وSilver Bullet</h3><p>فهم نماذج التوقيت والجلسات، مع ضرورة وجود سياق وتأكيد وإدارة مخاطرة.</p></article><article class="card"><div class="number">الدرس 06</div><h3>Daily & Weekly Bias</h3><p>تحديد الانحياز من الأطر الأكبر، ثم الانتقال إلى إطار أصغر للبحث عن فرصة متوافقة.</p></article></div></div></section>
@@ -11929,4 +11947,47 @@ Weekly / Daily
 })();
 </script>
 
+
+<script>
+(function(){
+  function setActive(lang){
+    document.querySelectorAll('[data-site-language]').forEach(function(button){
+      button.setAttribute('aria-pressed',button.getAttribute('data-site-language')===lang?'true':'false');
+    });
+  }
+  function changeLanguage(lang){
+    if(lang==='ar'){
+      document.cookie='googtrans=/ar/ar; path=/';
+      document.cookie='googtrans=/ar/ar; path=/; domain='+location.hostname;
+      location.reload();
+      return;
+    }
+    var combo=document.querySelector('#google_translate_element select.goog-te-combo');
+    if(!combo){setActive('ar');return;}
+    combo.value=lang;
+    combo.dispatchEvent(new Event('change'));
+    document.documentElement.lang=lang;
+    document.documentElement.dir='ltr';
+    setActive(lang);
+  }
+  document.addEventListener('click',function(event){
+    var button=event.target.closest('[data-site-language]');
+    if(button)changeLanguage(button.getAttribute('data-site-language'));
+  });
+  window.googleTranslateElementInit=function(){
+    if(window.google&&google.translate){
+      new google.translate.TranslateElement({
+        pageLanguage:'ar',
+        includedLanguages:'ar,en,tr',
+        autoDisplay:false,
+        layout:google.translate.TranslateElement.InlineLayout.SIMPLE
+      },'google_translate_element');
+    }
+  };
+  var loader=document.createElement('script');
+  loader.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  loader.async=true;
+  document.head.appendChild(loader);
+})();
+</script>
 </body></html>
