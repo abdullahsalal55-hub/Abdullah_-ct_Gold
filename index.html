@@ -20,9 +20,16 @@
 details.module.study-hidden{display:none}
 @media(max-width:600px){#student-dashboard .study-tools{padding:16px}.study-actions .btn{flex:1}}
 
+
+/* Language switcher — added without changing the original black/gold theme */
+.lang-switch{display:flex;align-items:center;gap:6px}
+.lang-switch button{border:1px solid #6b572b;background:#111;color:#d8b45a;border-radius:7px;padding:6px 11px;font-weight:800;cursor:pointer;font:inherit;font-size:12px}
+.lang-switch button[aria-pressed="true"]{background:#d8b45a;color:#111;border-color:#d8b45a}
+.lang-switch button:focus-visible{outline:2px solid #f7e2a3;outline-offset:2px}
+@media(max-width:600px){.lang-switch{width:100%;justify-content:flex-end}}
 </style></head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home">ABDULLAH ICT GOLD</a><nav class="navlinks"><a href="#method">المنهجية</a><a href="#lessons">الدروس</a><a href="#plan">خطة التحليل</a><a href="#risk">إدارة المخاطر</a><a href="#toc">منهج ICT الكامل</a><a href="#deep-lessons-12">قاموس ICT</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#home">ABDULLAH ICT GOLD</a><nav class="navlinks"><a href="#method">المنهجية</a><a href="#lessons">الدروس</a><a href="#plan">خطة التحليل</a><a href="#risk">إدارة المخاطر</a><a href="#toc">منهج ICT الكامل</a><a href="#deep-lessons-12">قاموس ICT</a></nav><div class="lang-switch" role="group" aria-label="اختيار اللغة"><button type="button" data-site-lang="ar" aria-pressed="true">AR</button><button type="button" data-site-lang="en" aria-pressed="false">EN</button><button type="button" data-site-lang="tr" aria-pressed="false">TR</button></div></div></header>
 <main id="home"><section class="hero"><div class="wrap"><div class="eyebrow">ICT • XAUUSD • NASDAQ</div><h1>اقرأ السوق.<br><span>افهم السيولة.</span></h1><p class="lead">منصة تعليمية عربية لفهم منهج ICT، وقراءة حركة السعر والسيولة وبنية السوق، وبناء خطة تداول منضبطة للذهب والناسداك — خطوة بخطوة، دون وعود بأرباح مضمونة.</p><div class="actions"><a class="btn primary" href="#lessons">ابدأ التعلم</a><a class="btn" href="#method">استكشف المنهجية</a></div><p><span class="tag">Liquidity</span><span class="tag">MSS</span><span class="tag">OB / FVG</span><span class="tag">Risk Management</span></p></div></section>
 <section class="section" id="method"><div class="wrap"><h2>منهجية <span>ICT</span></h2><p class="intro">لا تبحث عن إشارة واحدة. اجمع السياق، ومكان السيولة، وردة فعل السعر، ثم انتظر تأكيدًا واضحًا قبل التفكير في الدخول.</p><div class="grid"><article class="card"><h3>01 — السيولة</h3><p>تعرف على BSL وSSL، القمم والقيعان المتساوية، تجمعات أوامر الوقف، وسحب السيولة الحقيقي مقابل الحركة غير المؤكدة.</p></article><article class="card"><h3>02 — بنية السوق</h3><p>راقب displacement وMSS لتقييم تغير السلوك بعد سحب السيولة، بدل الدخول لمجرد لمس مستوى.</p></article><article class="card"><h3>03 — مناطق الاهتمام</h3><p>ادرس Order Block وFair Value Gap وPremium/Discount ضمن سياق الإطار الزمني الأكبر.</p></article><article class="card"><h3>04 — التوقيت</h3><p>تعلم جلسات لندن ونيويورك وKill Zones وJudas Swing وPO3/AMD، مع الانتباه للأخبار والتقلبات.</p></article></div></div></section>
 <section class="section" id="lessons"><div class="wrap"><h2>مكتبة <span>الدروس</span></h2><p class="intro">ابدأ بالأساسيات ثم انتقل إلى نماذج التنفيذ. هذه خريطة تعلم؛ لا تُعد أي فكرة منها توصية شراء أو بيع.</p><div class="grid"><article class="card"><div class="number">الدرس 01</div><h3>هندسة السيولة</h3><p>BSL / SSL، Equal Highs & Lows، Liquidity Sweep، وكيفية تحديد الأهداف المحتملة للسيولة.</p></article><article class="card"><div class="number">الدرس 02</div><h3>Market Structure</h3><p>الاتجاه، القمم والقيعان، MSS، displacement، والتمييز بين الكسر المؤكد والحركة العشوائية.</p></article><article class="card"><div class="number">الدرس 03</div><h3>OB وFVG</h3><p>تحديد مناطق الاهتمام، شروط صلاحيتها، وإدارة الإبطال بدل افتراض أن كل منطقة ستصمد.</p></article><article class="card"><div class="number">الدرس 04</div><h3>PO3 / AMD</h3><p>التجميع ثم التلاعب/سحب السيولة ثم التوسع المحتمل، وربط النموذج بالسياق العام للسوق.</p></article><article class="card"><div class="number">الدرس 05</div><h3>Judas Swing وSilver Bullet</h3><p>فهم نماذج التوقيت والجلسات، مع ضرورة وجود سياق وتأكيد وإدارة مخاطرة.</p></article><article class="card"><div class="number">الدرس 06</div><h3>Daily & Weekly Bias</h3><p>تحديد الانحياز من الأطر الأكبر، ثم الانتقال إلى إطار أصغر للبحث عن فرصة متوافقة.</p></article></div></div></section>
@@ -11926,6 +11933,53 @@ Weekly / Daily
  document.getElementById('show-all-lessons')?.addEventListener('click',()=>{if(search)search.value='';filter();});
  document.getElementById('clear-study-progress')?.addEventListener('click',()=>{if(!confirm('هل تريد مسح سجل إنجازك على هذا الجهاز؟'))return;completed={};try{localStorage.removeItem(STORE);}catch(e){}render();});
  render();
+})();
+</script>
+
+
+<script>
+(function(){
+ const translations={
+  en:{
+   'a[href="#method"]':'Methodology','a[href="#lessons"]':'Lessons','a[href="#plan"]':'Analysis Plan','a[href="#risk"]':'Risk Management','a[href="#toc"]':'Full ICT Curriculum','a[href="#deep-lessons-12"]':'ICT Glossary',
+   '.eyebrow':'ICT • XAUUSD • NASDAQ',
+   '.hero h1':'Read the Market.<br><span>Understand Liquidity.</span>',
+   '.hero .lead':'An educational platform for understanding ICT, price action, liquidity and market structure, and building a disciplined trading plan for Gold and Nasdaq — step by step, with no promises of guaranteed profits.',
+   '.hero .actions a.primary':'Start Learning','.hero .actions a:not(.primary)':'Explore the Methodology',
+   '#method h2':'ICT <span>Methodology</span>','#method .intro':'Do not look for a single signal. Combine context, liquidity location and price reaction, then wait for clear confirmation before considering an entry.',
+   '#lessons h2':'Lesson <span>Library</span>','#lessons .intro':'Start with the fundamentals, then move on to execution models. This is a learning roadmap, not a buy or sell recommendation.',
+   '#student-dashboard h2':'Student <span>Progress Dashboard</span>','#student-dashboard .intro':'Track your studies and save progress on this device. Search unit titles and mark each unit complete when you finish it.',
+   '#plan h2':'Analysis Sequence <span>Before Entry</span>','#risk h2':'Risk Management <span>First</span>','#toc h2':'Curriculum Index'
+  },
+  tr:{
+   'a[href="#method"]':'Metodoloji','a[href="#lessons"]':'Dersler','a[href="#plan"]':'Analiz Planı','a[href="#risk"]':'Risk Yönetimi','a[href="#toc"]':'Tam ICT Müfredatı','a[href="#deep-lessons-12"]':'ICT Sözlüğü',
+   '.hero h1':'Piyasayı Oku.<br><span>Likiditeyi Anla.</span>',
+   '.hero .lead':'ICT yöntemini, fiyat hareketlerini, likiditeyi ve piyasa yapısını anlamak; Altın ve Nasdaq için disiplinli bir işlem planı oluşturmak üzere hazırlanmış eğitim platformu. Adım adım, garantili kazanç vaadi olmadan.',
+   '.hero .actions a.primary':'Öğrenmeye Başla','.hero .actions a:not(.primary)':'Metodolojiyi Keşfet',
+   '#method h2':'ICT <span>Metodolojisi</span>','#method .intro':'Tek bir sinyal aramayın. Piyasa bağlamını, likidite bölgesini ve fiyat tepkisini birlikte değerlendirin; işlem düşünmeden önce net teyit bekleyin.',
+   '#lessons h2':'Ders <span>Kitaplığı</span>','#lessons .intro':'Temel konularla başlayın, ardından uygulama modellerine geçin. Bu bir öğrenme yol haritasıdır; alım veya satım tavsiyesi değildir.',
+   '#student-dashboard h2':'Öğrenci <span>Takip Paneli</span>','#student-dashboard .intro':'Çalışmanızı takip edin ve ilerlemenizi bu cihazda kaydedin. Ünite başlıklarında arama yapın ve tamamladığınız üniteleri işaretleyin.',
+   '#plan h2':'İşlem Öncesi <span>Analiz Sırası</span>','#risk h2':'Önce <span>Risk Yönetimi</span>','#toc h2':'Müfredat Dizini'
+  }
+ };
+ const original=new Map();
+ function apply(lang){
+  const dict=translations[lang]||{};
+  document.documentElement.lang=lang;
+  document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+  Object.entries(dict).forEach(([selector,value])=>{
+   document.querySelectorAll(selector).forEach(el=>{
+    if(!original.has(el))original.set(el,el.innerHTML);
+    el.innerHTML=value;
+   });
+  });
+  if(lang==='ar')original.forEach((value,el)=>{el.innerHTML=value;});
+  document.querySelectorAll('[data-site-lang]').forEach(btn=>btn.setAttribute('aria-pressed',btn.dataset.siteLang===lang?'true':'false'));
+  try{localStorage.setItem('abdullah-ict-gold-language',lang);}catch(e){}
+ }
+ document.querySelectorAll('[data-site-lang]').forEach(btn=>btn.addEventListener('click',()=>apply(btn.dataset.siteLang)));
+ let saved='ar';try{saved=localStorage.getItem('abdullah-ict-gold-language')||'ar';}catch(e){}
+ apply(['ar','en','tr'].includes(saved)?saved:'ar');
 })();
 </script>
 
