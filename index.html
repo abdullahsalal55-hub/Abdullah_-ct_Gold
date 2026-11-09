@@ -20,9 +20,18 @@
 details.module.study-hidden{display:none}
 @media(max-width:600px){#student-dashboard .study-tools{padding:16px}.study-actions .btn{flex:1}}
 
+
+.nav-tools{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.language-switcher{display:flex;gap:5px;padding:4px;border:1px solid #5b4924;border-radius:9px;background:#10110f}
+.language-switcher button{border:0;border-radius:6px;padding:6px 10px;background:transparent;color:var(--muted);font:700 12px Tahoma,Arial,sans-serif;cursor:pointer}
+.language-switcher button[aria-pressed="true"]{background:var(--gold);color:#111}
+html[dir="ltr"] body{text-align:left}
+html[dir="ltr"] .notice{border-right:0;border-left:3px solid var(--gold)}
+html[dir="ltr"] .progress-meta{direction:ltr}
+@media(max-width:700px){.nav-tools{width:100%;justify-content:space-between}.navlinks{flex:1}}
 </style></head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home">ABDULLAH ICT GOLD</a><nav class="navlinks"><a href="#method">المنهجية</a><a href="#lessons">الدروس</a><a href="#plan">خطة التحليل</a><a href="#risk">إدارة المخاطر</a><a href="#toc">منهج ICT الكامل</a><a href="#deep-lessons-12">قاموس ICT</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#home">ABDULLAH ICT GOLD</a><div class="nav-tools"><div class="language-switcher" id="site-language-switcher" role="group" aria-label="Choose language"><button type="button" data-lang="en" aria-pressed="false">EN</button><button type="button" data-lang="tr" aria-pressed="false">TR</button><button type="button" data-lang="ar" aria-pressed="true">AR</button></div><nav class="navlinks"><a href="#method">المنهجية</a><a href="#lessons">الدروس</a><a href="#plan">خطة التحليل</a><a href="#risk">إدارة المخاطر</a><a href="#toc">منهج ICT الكامل</a><a href="#deep-lessons-12">قاموس ICT</a></nav></div></div></header>
 <main id="home"><section class="hero"><div class="wrap"><div class="eyebrow">ICT • XAUUSD • NASDAQ</div><h1>اقرأ السوق.<br><span>افهم السيولة.</span></h1><p class="lead">منصة تعليمية عربية لفهم منهج ICT، وقراءة حركة السعر والسيولة وبنية السوق، وبناء خطة تداول منضبطة للذهب والناسداك — خطوة بخطوة، دون وعود بأرباح مضمونة.</p><div class="actions"><a class="btn primary" href="#lessons">ابدأ التعلم</a><a class="btn" href="#method">استكشف المنهجية</a></div><p><span class="tag">Liquidity</span><span class="tag">MSS</span><span class="tag">OB / FVG</span><span class="tag">Risk Management</span></p></div></section>
 <section class="section" id="method"><div class="wrap"><h2>منهجية <span>ICT</span></h2><p class="intro">لا تبحث عن إشارة واحدة. اجمع السياق، ومكان السيولة، وردة فعل السعر، ثم انتظر تأكيدًا واضحًا قبل التفكير في الدخول.</p><div class="grid"><article class="card"><h3>01 — السيولة</h3><p>تعرف على BSL وSSL، القمم والقيعان المتساوية، تجمعات أوامر الوقف، وسحب السيولة الحقيقي مقابل الحركة غير المؤكدة.</p></article><article class="card"><h3>02 — بنية السوق</h3><p>راقب displacement وMSS لتقييم تغير السلوك بعد سحب السيولة، بدل الدخول لمجرد لمس مستوى.</p></article><article class="card"><h3>03 — مناطق الاهتمام</h3><p>ادرس Order Block وFair Value Gap وPremium/Discount ضمن سياق الإطار الزمني الأكبر.</p></article><article class="card"><h3>04 — التوقيت</h3><p>تعلم جلسات لندن ونيويورك وKill Zones وJudas Swing وPO3/AMD، مع الانتباه للأخبار والتقلبات.</p></article></div></div></section>
 <section class="section" id="lessons"><div class="wrap"><h2>مكتبة <span>الدروس</span></h2><p class="intro">ابدأ بالأساسيات ثم انتقل إلى نماذج التنفيذ. هذه خريطة تعلم؛ لا تُعد أي فكرة منها توصية شراء أو بيع.</p><div class="grid"><article class="card"><div class="number">الدرس 01</div><h3>هندسة السيولة</h3><p>BSL / SSL، Equal Highs & Lows، Liquidity Sweep، وكيفية تحديد الأهداف المحتملة للسيولة.</p></article><article class="card"><div class="number">الدرس 02</div><h3>Market Structure</h3><p>الاتجاه، القمم والقيعان، MSS، displacement، والتمييز بين الكسر المؤكد والحركة العشوائية.</p></article><article class="card"><div class="number">الدرس 03</div><h3>OB وFVG</h3><p>تحديد مناطق الاهتمام، شروط صلاحيتها، وإدارة الإبطال بدل افتراض أن كل منطقة ستصمد.</p></article><article class="card"><div class="number">الدرس 04</div><h3>PO3 / AMD</h3><p>التجميع ثم التلاعب/سحب السيولة ثم التوسع المحتمل، وربط النموذج بالسياق العام للسوق.</p></article><article class="card"><div class="number">الدرس 05</div><h3>Judas Swing وSilver Bullet</h3><p>فهم نماذج التوقيت والجلسات، مع ضرورة وجود سياق وتأكيد وإدارة مخاطرة.</p></article><article class="card"><div class="number">الدرس 06</div><h3>Daily & Weekly Bias</h3><p>تحديد الانحياز من الأطر الأكبر، ثم الانتقال إلى إطار أصغر للبحث عن فرصة متوافقة.</p></article></div></div></section>
@@ -989,7 +998,6 @@ details.module.study-hidden{display:none}
 <ul><li><strong>0–4 نقاط:</strong> راجع أساسيات السيولة وبنية السوق والمصطلحات قبل الانتقال.</li><li><strong>5–7 نقاط:</strong> لديك أساس جيد؛ أعد دراسة مواضع الخطأ ونفذ تمارين الرسم.</li><li><strong>8–10 نقاط:</strong> فهم نظري قوي في هذه الأسئلة؛ انتقل إلى اختبار الحالات التاريخية ولا تعتبر النتيجة إثباتاً للمهارة العملية.</li></ul>
 <p>النتيجة لا تقيس جودة التنفيذ أو الانضباط أو القدرة على التعامل مع الخسائر. قيّم هذه الجوانب من خلال سجل موثق وتجربة تجريبية طويلة بما يكفي.</p>
 </div></details>
-
 <div class="notice"><strong>تنبيه:</strong> لا توجد نتيجة اختبار أو نموذج ICT يضمن الربح. لا تستخدم أموالاً حقيقية لمجرد حصولك على علامة مرتفعة؛ افهم مخاطر الرافعة المالية والتنفيذ ومواصفات الرمز أولاً.</div>
 <p class="intro">نهاية الدفعة الثالثة عشرة: اختبار ذاتي تفاعلي، وتمارين تطبيقية منفصلة للذهب والناسداك، ونموذج مراجعة منظم.</p>
 </div></section>
@@ -1988,8 +1996,7 @@ details.module.study-hidden{display:none}
         <ul>
           <li>الإطار والنطاق المختار وسبب اختيار القمة والقاع.</li>
           <li>Equilibrium وموقع السعر: Premium أو Discount.</li>
-          <li>الانحياز الأعلى والبنية الداخلية والخارجية.</li>
-          <li>أنواع PD Arrays الموجودة، وأيها اختير ولماذا.</li>
+          <li>الانحياز الأعلى والبنية الداخلية والخارجية.</li>          <li>أنواع PD Arrays الموجودة، وأيها اختير ولماذا.</li>
           <li>السيولة السابقة والهدف المحتمل وشرط الإبطال.</li>
           <li>إشارة التنفيذ، الوقف، الهدف، المخاطرة، والنتيجة بوحدة R.</li>
           <li>هل بقيت النتيجة مقبولة بعد السبريد والانزلاق؟</li>
@@ -2988,8 +2995,7 @@ details.module.study-hidden{display:none}
       <summary>15) تطبيق نماذج الدخول على XAUUSD</summary>
       <div class="card">
         <p>على الذهب، ابدأ من مستويات اليوم والأسبوع والسيولة حول الجلسات. راقب تأثير بيانات التضخم والوظائف والفائدة والدولار، لأن الحركة والسبريد قد يتغيران بسرعة.</p>
-        <p><strong>تمرين:</strong> اختر 20 يوماً تاريخياً. قبل تشغيل كل يوم، ارسم PDH/PDL ونطاق آسيا والانحياز المحتمل. سجّل هل حدث Sweep، ثم MSS، ثم FVG/Retest. لا تخلط نتائج الذهب الفوري أو CFD مع بيانات العقود الآجلة دون توثيق الفروق.</p>
-      </div>
+        <p><strong>تمرين:</strong> اختر 20 يوماً تاريخياً. قبل تشغيل كل يوم، ارسم PDH/PDL ونطاق آسيا والانحياز المحتمل. سجّل هل حدث Sweep، ثم MSS، ثم FVG/Retest. لا تخلط نتائج الذهب الفوري أو CFD مع بيانات العقود الآجلة دون توثيق الفروق.</p>      </div>
     </details>
 
     <details class="module">
@@ -3989,7 +3995,6 @@ RECORD every signal, rejection, fill, cost and outcome</code></pre>
         <p>لا تخلط نتائج الأداتين في عينة واحدة قبل تحليل كل سوق منفرداً، ثم دراسة الارتباط والمخاطرة المجمعة.</p>
       </div>
     </details>
-
     <details class="module">
       <summary>11) ورقة عمل تحليل Market Delivery</summary>
       <div class="card">
@@ -4988,8 +4993,7 @@ RECORD every signal, rejection, fill, cost and outcome</code></pre>
     <details class="module">
       <summary>6) Liquidity Sweep وLiquidity Raid</summary>
       <div class="card">
-        <p>يُستخدم المصطلحان لوصف تجاوز مستوى سيولة محتمل. بعض المصادر تميز بينهما وبعضها يستعملهما بصورة متقاربة؛ اكتب التعريف التشغيلي الذي ستختبره.</p>
-        <ol>
+        <p>يُستخدم المصطلحان لوصف تجاوز مستوى سيولة محتمل. بعض المصادر تميز بينهما وبعضها يستعملهما بصورة متقاربة؛ اكتب التعريف التشغيلي الذي ستختبره.</p>        <ol>
           <li>حدد المستوى الذي ستراقبه قبل وصول السعر.</li>
           <li>حدد مقدار التجاوز الذي يعد اختراقاً للمستوى في بيانات أداتك.</li>
           <li>حدد معيار العودة: إغلاق داخل المستوى، أو استعادة النطاق خلال عدد معين من الشموع.</li>
@@ -5988,8 +5992,7 @@ RECORD every signal, rejection, fill, cost and outcome</code></pre>
         </ul>
         <div class="notice">إذا لم تستطع الالتزام في Demo، فزيادة رأس المال لن تحل المشكلة. العودة إلى التدريب قرار سليم.</div>
       </div>
-    </details>
-    <details class="module">
+    </details>    <details class="module">
       <summary>10. مشروع التخرج: خطة تداول كاملة لـ XAUUSD أو NASDAQ</summary>
       <div class="card">
         <p>أنشئ ملفاً واحداً يحتوي على الأقسام التالية:</p>
@@ -6989,7 +6992,6 @@ RECORD every signal, rejection, fill, cost and outcome</code></pre>
       <div class="notice">احسب المخاطرة على أساس أسوأ تنفيذ معقول، بما في ذلك الانزلاق والعمولات والسبريد. تختلف مواصفات XAUUSD وNASDAQ بين الوسطاء، لذلك تحقّق من Contract Size وTick Value قبل حساب الحجم.</div>
     </div>
   </details>
-
   <details class="module">
     <summary>4. متى لا تدخل؟ — No-Trade Engineering</summary>
     <div class="card">
@@ -7988,8 +7990,7 @@ Swing Low  ───────────── Discount
   <details class="module">
     <summary>3. الحالة الافتراضية الثانية — NASDAQ: صعود إلى BSL ثم رفض سعري</summary>
     <div class="card">
-      <p><strong>المشهد الافتراضي:</strong> يتجه المؤشر إلى قمم يوم سابق أو قمم متساوية. أثناء فترة تداول نشطة يتجاوزها ثم يعود، ويظهر ضغط هابط على الأطر الأدنى.</p>
-      <ol>
+      <p><strong>المشهد الافتراضي:</strong> يتجه المؤشر إلى قمم يوم سابق أو قمم متساوية. أثناء فترة تداول نشطة يتجاوزها ثم يعود، ويظهر ضغط هابط على الأطر الأدنى.</p>      <ol>
         <li><strong>Weekly/Daily:</strong> حدد هل القمم جزء من نطاق أكبر أو تقع قرب امتداد سعري مهم.</li>
         <li><strong>4H:</strong> حدد Dealing Range ومستوى الإبطال الذي يجعل فكرة البيع غير منطقية.</li>
         <li><strong>1H/15m:</strong> راقب هل عاد السعر أسفل القمم وهل ظهر Displacement هابط، لا مجرد تراجع ضعيف.</li>
@@ -8988,8 +8989,7 @@ Weekly / Daily
         <li>على 1M: استخدمه فقط إذا كان جزءاً من اختبار مستقل، ولا تجعل كل تغير صغير سبباً للدخول أو الخروج.</li>
         <li>قبل التنفيذ: تحقق من وقت الجلسة، الأخبار، السبريد، مسافة الوقف، قيمة النقطة، وحجم المخاطرة.</li>
       </ol>
-      <div class="notice">اكتب الخطة قبل بدء الحركة قدر الإمكان، وخذ لقطة شاشة لكل إطار. هذا يقلل إعادة تفسير الرسم بعد معرفة النتيجة.</div>
-    </div>
+      <div class="notice">اكتب الخطة قبل بدء الحركة قدر الإمكان، وخذ لقطة شاشة لكل إطار. هذا يقلل إعادة تفسير الرسم بعد معرفة النتيجة.</div>    </div>
   </details>
 
   <details class="module">
@@ -9988,8 +9988,7 @@ Weekly / Daily
         <li>يهبط السعر أسفل القاع، ثم يعود إلى داخل النطاق وفق شرط الإغلاق المحدد.</li>
         <li>سجل هل حدثت العودة سريعاً أم بعد فترة طويلة؛ الزمن جزء من تعريف النسخة المختبرة.</li>
         <li>انتظر دليلاً صاعداً على أداة التنفيذ: Displacement ثم MSS إذا كانا شرطين أساسيين.</li>
-        <li>يمكن تحديد FVG أو OB كمنطقة دخول فقط إذا كانت جزءاً من قواعد الاستراتيجية المكتوبة.</li>
-        <li>الوقف خارج قاع الاختراق أو نقطة الإلغاء المحددة، مع حساب الحجم والمخاطرة.</li>
+        <li>يمكن تحديد FVG أو OB كمنطقة دخول فقط إذا كانت جزءاً من قواعد الاستراتيجية المكتوبة.</li>        <li>الوقف خارج قاع الاختراق أو نقطة الإلغاء المحددة، مع حساب الحجم والمخاطرة.</li>
         <li>الهدف قد يكون سيولة داخلية أو قمة مرجعية مقابلة؛ لا تفترض الوصول إليه.</li>
       </ol>
       <p>إذا بقي السعر أسفل القاع واستمر في تكوين قيعان أدنى، فلا تتعامل مع الاختراق كفشل قبل ظهور دليل العودة.</p>
@@ -10988,8 +10987,7 @@ Weekly / Daily
 <p class="lead">الدخول الجيد لا يكفي وحده؛ فالنتيجة تتأثر بمكان الإبطال، وحجم المخاطرة، وطريقة التعامل مع الحركة بعد التنفيذ. يشرح هذا الدرس كيف تبني خطة خروج قبل فتح الصفقة، وكيف تميز بين هدف السيولة، والإبطال البنيوي، والخروج الوقائي، وكيف تختبر جني الأرباح الجزئي وتحريك الوقف دون تحويل إدارة الصفقة إلى قرارات عاطفية.</p>
 <details class="module" open><summary>1) اكتب خطة الصفقة قبل التنفيذ</summary><div class="card">
 <ul><li>حدد سبب الدخول: Sweep ثم MSS/Displacement ثم منطقة إعادة اختبار، أو نموذج آخر له قواعد مكتوبة.</li><li>حدد نقطة الإبطال الفنية التي تعني أن فرضية الصفقة لم تعد صالحة.</li><li>حدد وقف الخسارة خلف مستوى الإبطال مع مراعاة السبريد والتذبذب، لا عند رقم عشوائي.</li><li>حدد هدفًا أوليًا عند تجمع سيولة واضح، وهدفًا بديلًا إذا تغيرت البنية.</li><li>احسب حجم المركز من مبلغ المخاطرة والمسافة إلى الوقف وقيمة النقطة/العقد لدى وسيطك.</li><li>اكتب مسبقًا متى ستخفض المخاطرة أو تغلق الصفقة، ومتى لن تتدخل.</li></ul>
-<p>لا توسع الوقف بعد الدخول لمجرد تجنب الاعتراف بخطأ الفرضية. إذا احتجت وقفًا أوسع، أعد حساب حجم المركز قبل الدخول.</p></div></details>
-<details class="module"><summary>2) الفرق بين الإبطال الفني والخروج الإداري</summary><div class="card">
+<p>لا توسع الوقف بعد الدخول لمجرد تجنب الاعتراف بخطأ الفرضية. إذا احتجت وقفًا أوسع، أعد حساب حجم المركز قبل الدخول.</p></div></details><details class="module"><summary>2) الفرق بين الإبطال الفني والخروج الإداري</summary><div class="card">
 <p><b>الإبطال الفني:</b> مستوى أو شرط سعري محدد يجعل منطق الصفقة غير قائم، مثل استعادة قمة محورية في نموذج بيع أو قبول السعر أسفل مستوى كان يفترض أن يصمد في نموذج شراء.</p>
 <p><b>الخروج الإداري:</b> قرار مكتوب مسبقًا لحماية رأس المال أو تقليل التعرض، مثل إغلاق جزء عند هدف أول أو الخروج قبل حدث عالي المخاطر إذا كانت الخطة تنص على ذلك.</p>
 <p><b>الخروج الزمني:</b> إغلاق الصفقة إذا انتهت نافذة التداول التي اختُبرت فيها الاستراتيجية أو إذا بقي السعر متذبذبًا مدة محددة وفق قاعدة قابلة للقياس. لا تجعل مرور الوقت وحده إشارة خروج إلا إذا كانت جزءًا من الاختبار.</p></div></details>
@@ -11926,6 +11924,74 @@ Weekly / Daily
  document.getElementById('show-all-lessons')?.addEventListener('click',()=>{if(search)search.value='';filter();});
  document.getElementById('clear-study-progress')?.addEventListener('click',()=>{if(!confirm('هل تريد مسح سجل إنجازك على هذا الجهاز؟'))return;completed={};try{localStorage.removeItem(STORE);}catch(e){}render();});
  render();
+})();
+</script>
+
+<script id="abdullah-ict-i18n">
+(function(){
+ const translations={
+ en:{
+  nav:['Method','Lessons','Analysis Plan','Risk Management','Full ICT Curriculum','ICT Glossary'],
+  eyebrow:'ICT • XAUUSD • NASDAQ',heroTitle:'Read the market.<br><span>Understand liquidity.</span>',heroLead:'An educational platform for learning the ICT framework, reading price action, liquidity and market structure, and building a disciplined trading plan for Gold and Nasdaq — step by step, without promises of guaranteed returns.',heroButtons:['Start Learning','Explore the Method'],
+  methodTitle:'The <span>ICT</span> Method',methodIntro:'Do not rely on a single signal. Combine context, liquidity location and the market reaction, then wait for clear confirmation before considering an entry.',methodCards:[['01 — Liquidity','Learn BSL and SSL, equal highs and lows, stop clusters, and the difference between a liquidity sweep and an unconfirmed move.'],['02 — Market Structure','Track displacement and MSS to assess a potential change in behavior after a liquidity run, rather than entering simply because a level was touched.'],['03 — Points of Interest','Study Order Blocks, Fair Value Gaps and Premium/Discount within the higher-timeframe context.'],['04 — Timing','Learn the London and New York sessions, Kill Zones, Judas Swing and PO3/AMD, while accounting for news and volatility.']],
+ lessonsTitle:'Lesson <span>Library</span>',lessonsIntro:'Start with the foundations, then move on to execution models. This is a learning roadmap; none of its ideas is a buy or sell recommendation.',lessonCards:[['Lesson 01','Liquidity Engineering','BSL / SSL, Equal Highs & Lows, Liquidity Sweep, and identifying potential liquidity targets.'],['Lesson 02','Market Structure','Trend, highs and lows, MSS, displacement, and distinguishing a confirmed break from random movement.'],['Lesson 03','OB and FVG','Identifying points of interest, validity conditions, and invalidation management instead of assuming every zone will hold.'],['Lesson 04','PO3 / AMD','Accumulation, manipulation/liquidity run, and potential expansion, connected to the broader market context.'],['Lesson 05','Judas Swing and Silver Bullet','Understanding timing and session models, while requiring context, confirmation and risk management.'],['Lesson 06','Daily & Weekly Bias','Establishing directional bias from higher timeframes, then moving to a lower timeframe to look for aligned opportunities.']],
+ dashboardTitle:'Student <span>Dashboard</span>',dashboardIntro:'Track your studies and save your progress on this device. Search module titles and mark each module complete when you finish it.',searchLabel:'Search learning modules',searchPlaceholder:'Example: liquidity, FVG, MSS, risk management',progressLabel:'completed modules',showAll:'Show all modules',resetProgress:'Reset progress',studyNote:'Progress is saved locally in this browser and is not sent to a server. Clearing browser data may erase this record.',
+ planTitle:'Pre-entry <span>Analysis Sequence</span>',planCards:[['1. Context','Set the bias from H4/H1 and daily and weekly levels. Distinguish a trending market from a ranging market.'],['2. Liquidity Target','Identify important highs/lows and potential BSL or SSL targets that price may seek.'],['3. Confirmation','Wait for a sweep followed by clear displacement and MSS; do not enter immediately after the sweep alone.'],['4. Execution','Assess OB/FVG and a possible retest. Define invalidation, target and position size in advance.']],
+ riskTitle:'Risk Management <span>First</span>',riskCards:[['Protect capital','Set a small risk amount in advance, use a logical stop, and do not widen losses to give a trade more room.'],['Practice before live trading','Test rules on historical data and a demo account. Record results, discipline and trade count.'],['Watch the news','Spreads may widen and slippage and volatility may increase around news, especially in Gold and indices.']],
+ tocTitle:'Curriculum <span>Index</span>',tocIntro:'Expanded learning library',disclaimer:'Disclaimer: This content is for education and information only. It is not financial advice or a trading recommendation. Trading Gold, indices and leveraged contracts involves a substantial risk of loss. No strategy guarantees profit.',
+ done:'✓ Completed',markDone:'○ Mark complete',units:'completed modules',resetConfirm:'Do you want to clear your study progress on this device?'
+ },
+ tr:{
+  nav:['Yöntem','Dersler','Analiz Planı','Risk Yönetimi','Tam ICT Müfredatı','ICT Sözlüğü'],
+  eyebrow:'ICT • XAUUSD • NASDAQ',heroTitle:'Piyasayı okuyun.<br><span>Likiditeyi anlayın.</span>',heroLead:'ICT yaklaşımını, fiyat hareketlerini, likiditeyi ve piyasa yapısını öğrenmek; Altın ve Nasdaq için disiplinli bir işlem planı oluşturmak üzere hazırlanmış eğitim platformu. Adım adım, garantili kazanç vaadi olmadan.',heroButtons:['Öğrenmeye Başla','Yöntemi Keşfet'],
+  methodTitle:'<span>ICT</span> Yöntemi',methodIntro:'Tek bir sinyale güvenmeyin. Bağlamı, likiditenin konumunu ve fiyatın tepkisini birlikte değerlendirin; işleme girmeden önce net bir teyit bekleyin.',methodCards:[['01 — Likidite','BSL ve SSL, eşit tepe ve dipler, stop kümeleri ve likidite süpürmesi ile teyitsiz hareket arasındaki farkı öğrenin.'],['02 — Piyasa Yapısı','Likidite alımından sonra olası davranış değişimini değerlendirmek için displacement ve MSS hareketlerini izleyin.'],['03 — İlgi Alanları','Order Block, Fair Value Gap ve Premium/Discount kavramlarını üst zaman dilimi bağlamında inceleyin.'],['04 — Zamanlama','Haberleri ve oynaklığı dikkate alarak Londra ve New York seanslarını, Kill Zones, Judas Swing ve PO3/AMD modellerini öğrenin.']],
+ lessonsTitle:'Ders <span>Kütüphanesi</span>',lessonsIntro:'Temel konularla başlayın, ardından işlem modellerine geçin. Bu bir öğrenme yol haritasıdır; hiçbir konu alım veya satım tavsiyesi değildir.',lessonCards:[['Ders 01','Likidite Mühendisliği','BSL / SSL, Equal Highs & Lows, Liquidity Sweep ve olası likidite hedeflerini belirleme.'],['Ders 02','Piyasa Yapısı','Trend, tepe ve dipler, MSS, displacement ve doğrulanmış kırılımı rastgele hareketten ayırma.'],['Ders 03','OB ve FVG','İlgi alanlarını ve geçerlilik koşullarını belirleme; her bölgenin tutacağını varsaymak yerine geçersiz kılma yönetimi.'],['Ders 04','PO3 / AMD','Birikim, manipülasyon/likidite alımı ve olası genişleme; genel piyasa bağlamıyla birlikte.'],['Ders 05','Judas Swing ve Silver Bullet','Bağlam, teyit ve risk yönetimi şartıyla zamanlama ve seans modellerini anlama.'],['Ders 06','Günlük ve Haftalık Yön','Üst zaman dilimlerinden yön belirleyip uyumlu fırsatlar için alt zaman dilimine geçme.']],
+ dashboardTitle:'Öğrenci <span>Paneli</span>',dashboardIntro:'Çalışmalarınızı takip edin ve ilerlemenizi bu cihazda saklayın. Modül başlıklarında arama yapın ve tamamladığınız modülleri işaretleyin.',searchLabel:'Eğitim modüllerinde ara',searchPlaceholder:'Örnek: likidite, FVG, MSS, risk yönetimi',progressLabel:'tamamlanan modül',showAll:'Tüm modülleri göster',resetProgress:'İlerlemeyi sıfırla',studyNote:'İlerleme bu tarayıcıda yerel olarak saklanır ve sunucuya gönderilmez. Tarayıcı verilerini silmek bu kaydı kaldırabilir.',
+ planTitle:'İşlem Öncesi <span>Analiz Sırası</span>',planCards:[['1. Bağlam','H4/H1 ve günlük/haftalık seviyelerden yön belirleyin. Trend piyasası ile yatay piyasayı ayırt edin.'],['2. Likidite Hedefi','Önemli tepe/dipleri ve fiyatın yönelebileceği olası BSL veya SSL hedeflerini belirleyin.'],['3. Teyit','Sweep sonrasında net displacement ve MSS bekleyin; yalnızca likidite alındı diye hemen işleme girmeyin.'],['4. İşlem','OB/FVG ve olası yeniden testi değerlendirin. Geçersizlik seviyesini, hedefi ve pozisyon büyüklüğünü önceden belirleyin.']],
+ riskTitle:'Önce <span>Risk Yönetimi</span>',riskCards:[['Sermayeyi koruyun','Önceden küçük bir risk belirleyin, mantıklı stop kullanın ve işleme daha fazla alan tanımak için zararı büyütmeyin.'],['Gerçek işlemden önce pratik yapın','Kuralları geçmiş verilerde ve demo hesapta test edin. Sonuçları, disiplini ve işlem sayısını kaydedin.'],['Haberleri takip edin','Özellikle Altın ve endekslerde haber zamanlarında spread, kayma ve oynaklık artabilir.']],
+ tocTitle:'Müfredat <span>İçindekiler</span>',tocIntro:'Genişletilmiş eğitim kütüphanesi',disclaimer:'Sorumluluk Reddi: Bu içerik yalnızca eğitim ve bilgilendirme amaçlıdır; finansal tavsiye veya işlem önerisi değildir. Altın, endeks ve kaldıraçlı sözleşmelerde işlem yapmak önemli kayıp riski taşır. Hiçbir strateji kâr garantisi vermez.',
+ done:'✓ Tamamlandı',markDone:'○ Tamamlandı olarak işaretle',units:'tamamlanan modül',resetConfirm:'Bu cihazdaki çalışma ilerlemenizi silmek istiyor musunuz?'
+ }
+ };
+ const original={nav:Array.from(document.querySelectorAll('.navlinks a')).map(x=>x.textContent),
+  methodCards:Array.from(document.querySelectorAll('#method .card')).map(x=>[x.querySelector('h3')?.textContent,x.querySelector('p')?.textContent]),
+  lessonCards:Array.from(document.querySelectorAll('#lessons .card')).map(x=>[x.querySelector('.number')?.textContent,x.querySelector('h3')?.textContent,x.querySelector('p')?.textContent]),
+  planCards:Array.from(document.querySelectorAll('#plan .card')).map(x=>[x.querySelector('h3')?.textContent,x.querySelector('p')?.textContent]),
+  riskCards:Array.from(document.querySelectorAll('#risk .card')).map(x=>[x.querySelector('h3')?.textContent,x.querySelector('p')?.textContent])};
+ const pick=(lang,key,ar)=>lang==='ar'?ar:(translations[lang]?.[key]??ar);
+ function setText(el,value){if(el&&value!==undefined)el.textContent=value;}
+ function setHTML(el,value){if(el&&value!==undefined)el.innerHTML=value;}
+ function apply(lang){
+  if(!['ar','en','tr'].includes(lang))lang='ar';
+  const t=translations[lang]; const ar=lang==='ar';
+  document.documentElement.lang=lang;document.documentElement.dir=ar?'rtl':'ltr';
+  document.querySelectorAll('#site-language-switcher button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===lang?'true':'false'));
+  document.querySelectorAll('.navlinks a').forEach((el,i)=>setText(el,ar?original.nav[i]:t.nav[i]));
+  setText(document.querySelector('.hero .eyebrow'),ar?'ICT • XAUUSD • NASDAQ':t.eyebrow);
+  setHTML(document.querySelector('.hero h1'),ar?'اقرأ السوق.<br><span>افهم السيولة.</span>':t.heroTitle);
+  setText(document.querySelector('.hero .lead'),ar?'منصة تعليمية عربية لفهم منهج ICT، وقراءة حركة السعر والسيولة وبنية السوق، وبناء خطة تداول منضبطة للذهب والناسداك — خطوة بخطوة، دون وعود بأرباح مضمونة.':t.heroLead);
+  document.querySelectorAll('.hero .actions a').forEach((el,i)=>setText(el,ar?['ابدأ التعلم','استكشف المنهجية'][i]:t.heroButtons[i]));
+  setHTML(document.querySelector('#method h2'),ar?'منهجية <span>ICT</span>':t.methodTitle);setText(document.querySelector('#method .intro'),ar?'لا تبحث عن إشارة واحدة. اجمع السياق، ومكان السيولة، وردة فعل السعر، ثم انتظر تأكيدًا واضحًا قبل التفكير في الدخول.':t.methodIntro);
+  document.querySelectorAll('#method .card').forEach((el,i)=>{const d=ar?original.methodCards[i]:t.methodCards[i];setText(el.querySelector('h3'),d[0]);setText(el.querySelector('p'),d[1]);});
+  setHTML(document.querySelector('#lessons h2'),ar?'مكتبة <span>الدروس</span>':t.lessonsTitle);setText(document.querySelector('#lessons .intro'),ar?'ابدأ بالأساسيات ثم انتقل إلى نماذج التنفيذ. هذه خريطة تعلم؛ لا تُعد أي فكرة منها توصية شراء أو بيع.':t.lessonsIntro);
+  document.querySelectorAll('#lessons .card').forEach((el,i)=>{const d=ar?original.lessonCards[i]:t.lessonCards[i];setText(el.querySelector('.number'),d[0]);setText(el.querySelector('h3'),d[1]);setText(el.querySelector('p'),d[2]);});
+  setHTML(document.querySelector('#student-dashboard h2'),ar?'لوحة <span>متابعة الطالب</span>':t.dashboardTitle);setText(document.querySelector('#student-dashboard .intro'),ar?'تابع دراستك واحفظ إنجازك على هذا الجهاز. ابحث في عناوين الوحدات وضع علامة «أكملت» بعد إنهاء كل وحدة.':t.dashboardIntro);
+  setText(document.querySelector('label[for="lesson-search"]'),ar?'ابحث داخل الوحدات التعليمية':t.searchLabel);
+  const search=document.getElementById('lesson-search');if(search)search.placeholder=ar?'مثال: السيولة، FVG، MSS، إدارة المخاطر':t.searchPlaceholder;
+  setText(document.getElementById('show-all-lessons'),ar?'عرض كل الوحدات':t.showAll);setText(document.getElementById('clear-study-progress'),ar?'إعادة ضبط التقدم':t.resetProgress);setText(document.querySelector('.study-note'),ar?'يُحفظ التقدم محلياً في المتصفح ولا يُرسل إلى خادم. مسح بيانات المتصفح قد يحذف هذا السجل.':t.studyNote);
+  setHTML(document.querySelector('#plan h2'),ar?'تسلسل التحليل <span>قبل الدخول</span>':t.planTitle);
+  document.querySelectorAll('#plan .card').forEach((el,i)=>{const d=ar?original.planCards[i]:t.planCards[i];setText(el.querySelector('h3'),d[0]);setText(el.querySelector('p'),d[1]);});
+  setHTML(document.querySelector('#risk h2'),ar?'إدارة المخاطر <span>أولًا</span>':t.riskTitle);
+  document.querySelectorAll('#risk .card').forEach((el,i)=>{const d=ar?original.riskCards[i]:t.riskCards[i];setText(el.querySelector('h3'),d[0]);setText(el.querySelector('p'),d[1]);});
+  const notice=document.querySelector('#risk .notice');if(notice)notice.innerHTML=ar?'<strong>إخلاء مسؤولية:</strong> المحتوى تعليمي وإعلامي فقط، وليس نصيحة مالية أو توصية تداول. تداول الذهب والمؤشرات والعقود ذات الرافعة ينطوي على مخاطر خسارة كبيرة، ولا توجد استراتيجية تضمن الربح.':'<strong>'+(lang==='en'?'Disclaimer:':'Sorumluluk Reddi:')+'</strong> '+t.disclaimer;
+  const toc=document.querySelector('#toc h2');if(toc)setHTML(toc,ar?'فهرس الوحدات':t.tocTitle);
+  const tocEyebrow=document.querySelector('#toc .eyebrow');setText(tocEyebrow,ar?'المكتبة التعليمية الموسعة':t.tocIntro);
+  const progress=document.getElementById('study-count');if(progress&&progress.dataset.count){const n=progress.dataset.count;progress.textContent=n+' '+(ar?'وحدة مكتملة':t.units);}  document.querySelectorAll('.module-done').forEach(b=>{const yes=b.getAttribute('aria-pressed')==='true';b.textContent=yes?(ar?'✓ مكتملة':t.done):(ar?'○ تحديد كمكتملة':t.markDone);});
+ }
+ const count=document.getElementById('study-count');if(count){const obs=new MutationObserver(()=>{const m=count.textContent.match(/\d+/);if(m)count.dataset.count=m[0];});obs.observe(count,{childList:true,characterData:true,subtree:true});}
+ document.querySelectorAll('#site-language-switcher button').forEach(b=>b.addEventListener('click',()=>{try{localStorage.setItem('abdullah-ict-gold-language',b.dataset.lang);}catch(e){}apply(b.dataset.lang);}));
+ let saved='ar';try{saved=localStorage.getItem('abdullah-ict-gold-language')||'ar';}catch(e){}apply(saved);
+ window.addEventListener('storage',e=>{if(e.key==='abdullah-ict-gold-language')apply(e.newValue||'ar');});
 })();
 </script>
 
