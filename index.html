@@ -11956,7 +11956,7 @@ Weekly / Daily
       var saved=localStorage.getItem('abdullah-ict-language');
       if(supported.indexOf(saved)!==-1)return saved;
     }catch(e){}
-    var match=document.cookie.match(/(?:^|;\\s*)googtrans=\\/ar\\/(ar|en|tr)(?:;|$)/);
+    var match=document.cookie.match(/(?:^|;\s*)googtrans=\/ar\/(ar|en|tr)(?:;|$)/);
     return match?match[1]:'ar';
   }
   function setActive(lang){
